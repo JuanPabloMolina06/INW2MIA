@@ -1,0 +1,124 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+.navbar {
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+/* Estilos para a seção principal */
+main {
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+/* Estilos para as páginas específicas */
+section.container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+section.container p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Estilos para formulário de contato */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para página "Sobre" */
+.about-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.about-info img {
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+.about-text {
+  flex: 1;
+  margin-left: 20px;
+}
+
+/* Estilos para a barra de navegação ativa */
+.navbar-nav .nav-item.active .nav-link {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Estilo para o link dentro do botão de envio */
+.contact-form button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-form button a:hover {
+  text-decoration: underline;
+}
+
+.product-list .product-card {
+  text-align: center;
+}
+
+.product-list .product-card img {
+  display: block;
+  margin: 0 auto;
+}
